@@ -1,7 +1,5 @@
-import re
-from urllib import request
-import requests as req
+import requests 
 
 url = "https://www.ceneo.pl/91714422"
-response = req.get(url)
+response = requests.get(url)
 print(response.status_code)
