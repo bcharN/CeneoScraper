@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup as bs
 
 
 product_num="91714422"
+product_num=int(input("enter product number: "))
 url = "https://www.ceneo.pl"+"/"+product_num
 while(url):
     response = requests.get(url)
