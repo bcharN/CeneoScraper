@@ -29,8 +29,15 @@
    a. utworzenie funkcji 
    b. utworzenie słownika selektorów
    c. użycie dictionary comprehension do pobrania składowych pojedynczej opinii na podstawie słownika selektorów
-
-
+8. Analiza pobranych opinii dla konkretnego produktu
+   a. wyliczenie podstawowych statystyk :
+        - liczba wszystkich opinii
+        - liczba opinii dla których podano zalety
+        - liczba opinii dla których podano wady
+        - średnia ocena produktu
+   b. przygotowanie wykresów
+        - udział poszczególnych rekomendacji w ogólnej liczbie opinii
+        - histogram występowania poszczególnych ocen
 <!--- review-feature__title review-feature__title--positives >
 
 <!---   span[id^="votes-yes"]

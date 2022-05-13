@@ -31,6 +31,8 @@ selectors = {
 
 
 product_num="91714422"
+product_num="39562616"
+product_num="73384338"
 product_num=input("enter product number: ")
 url = "https://www.ceneo.pl"+"/"+product_num
 all_opinions = []
